@@ -20,35 +20,18 @@ html {
 	.Header {
 		/*Actual bar*/
 		        position: relative;
-        		display: inline-block;
+        		text-align: center;
+  			color: clear;
 
-		/* Text */
-	position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 0;        
-        text-align: center;
-        top: 40%; /* Adjust this value to move the positioned div up and down */
-        background: rgba(0, 0, 0, 0.8);
-        font-family: Times New Roman,serif;
-        color: #fff;
-        width: 60%; /* Set the width of the positioned div */
+	
 	}
 
 	/* COOL IMAGE */
-	.Image {
-		width: auto;
-		height: 30vw;
-		overflow: hidden;
-		min-height: 150px;
-	}
-
-	.Image img {
-		padding-top: 0px;
-		transform: translate(0%, -30%);
-		max-width: 100%;
-		max-height: 100%;
+	.Header_name{
+		  position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
 	}
 
 	#AboutHeading {
