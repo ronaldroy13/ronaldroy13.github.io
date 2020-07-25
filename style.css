@@ -116,19 +116,19 @@ html {
 
 
 	/* LOGO CENTERING AND SIZING */
-	.logo {
+	.linkdein {
 		width: 100%;
 		vertical-align: middle;
 		transition-duration: .5s;
 		height: auto;
 	}
 
-	.logo: a {
+	.linkedin: a {
 		width: auto;
 		height: stretch;
 	}
 
-	.logo img {
+	.linkedin img {
 		width: 45%;
 		height: stretch;
 		margin-left: 50%;
@@ -150,24 +150,5 @@ html {
 		margin-left: 50%;
 		transform: translate(-50%, 0%);
 	}
-}
-
-
-
-/* REORDERING OF THE DIVS */
-.navbar div:nth-child(1) {
-	grid-area: 1 / 1 / 2 / 2;
-}
-
-.navbar div:nth-child(2) {
-	grid-area: 1 / 2 / 2 / 3;
-}
-
-.navbar div:nth-child(3) {
-	grid-area: 1 / 3 / 2 / 4;
-}
-
-.navbar div:nth-child(4) {
-	grid-area: 1 / 4 / 2 / 5;
 }
 
