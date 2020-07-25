@@ -170,14 +170,3 @@ html {
 	grid-area: 1 / 4 / 2 / 5;
 }
 
-
-/* ADDING CUSTOM FONTS */
-@font-face {
-	font-family: "Kenyan Coffee";
-	src: url("Fonts/KenyanCoffee.ttf");
-}
-
-@font-face {
-	font-family: "Olds Sans Black";
-	src: url("Fonts/OldSansBlack.ttf");
-}
