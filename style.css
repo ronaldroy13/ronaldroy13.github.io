@@ -131,13 +131,6 @@ html {
 		transform: translate(-50%, 0%);
 	}
 
-	.github img {
-		width: 80%;
-		height: stretch;
-		margin-left: 50%;
-		transform: translate(-50%, 0%);
-	}
-
 	.resume img {
 		filter: invert(100%);
 		width: 40%;
