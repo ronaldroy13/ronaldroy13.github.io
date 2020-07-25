@@ -20,9 +20,20 @@ html {
 	.Header {
 		/*Actual bar*/
 		        position: relative;
-        		text-align: center;
-  			color: clear;
+			display: inline-block;
 
+		/* Text */
+	position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        background: rgba(0, 0, 0, 0.8);
+        font-family: Times New Roman,serif;
+        color: #fff;
+        width: 60%; /* Set the width of the positioned div */
 	
 	}
 
