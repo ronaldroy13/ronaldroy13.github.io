@@ -10,7 +10,7 @@ html {
 
 @media screen and (min-width:500px) {
 	body {
-		background: #000000;
+		background: url(website_backround.jpg;
 		background-repeat: no-repeat;
 		margin: 0;
 		max-width: 300em;
