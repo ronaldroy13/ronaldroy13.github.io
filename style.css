@@ -54,7 +54,7 @@ html {
 
 	#AboutHeading {
 		font-family: 'open_sansregular';
-		background-color: #C6C7C4;
+		background-color: #B14B14;
 		color: black;
 		font-size: 2vw;
 		text-align: center;
@@ -78,7 +78,7 @@ html {
 	.About {
 		/* Box properties */
 		padding: 0em 5vw 3vw 5vw /* top right bottom left */ ;
-		background-color: #C6C7C4;
+		background-color: #B14B14;
 
 		/* Text properties */
 		color: black;
@@ -90,7 +90,7 @@ html {
 	/* THE NAVBAR */
 	.navbar {
 		display: grid;
-		grid-template-columns: repeat(4 , 1fr);
+		grid-template-columns: repeat(3 , 1fr);
 		grid-template-rows: 1fr;
 		align-items: center;
 
