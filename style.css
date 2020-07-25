@@ -19,18 +19,21 @@ html {
 	/* MAIN HEADER */
 	.Header {
 		/*Actual bar*/
-		top: 0;
-		left: 0;
-		background-color: #000000;
+		        position: relative;
+        		display: inline-block;
 
 		/* Text */
-		color: #FFFFFF;
-		font-size: 2vw;
-		text-align: center;
-		font-weight: none;
-		padding: 3.5vw;
-		text-transform: uppercase;
-		letter-spacing: .1em;
+	position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        background: rgba(0, 0, 0, 0.8);
+        font-family: Times New Roman,serif;
+        color: #fff;
+        width: 60%; /* Set the width of the positioned div */
 	}
 
 	/* COOL IMAGE */
