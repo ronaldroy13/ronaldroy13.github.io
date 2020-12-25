@@ -31,8 +31,9 @@ html {
   letter-spacing: .1em;
 }
 .Backround{
-width: 100vw;
+width: 110vw;
 height: 30vw;
+opacity: 0.5;
 overflow: hidden;
 min-height: 150px;
 }
