@@ -31,7 +31,7 @@ html {
   letter-spacing: .1em;
 }
 .Backround{
-width: 210vw;
+width: auto;
 height: 30vw;
 opacity: 0.5;
 overflow: hidden;
