@@ -33,13 +33,13 @@ html {
 .Backround{
 width: 150vw;
 height: 30vw;
-overflow: auto;
+overflow: hidden;
 min-height: 150px;
 }
 .Backround img {
   padding-top: 0px;
-  transform: translate(0%, -30%);
-  max-width: 100%;
+  transform: translate(0%, 0%);
+  max-width: 70%;
   max-height: 100%;
 }
 
