@@ -45,7 +45,7 @@ min-height: 150px;
 }
 #AboutHead {
   font-family: 'open_sansregular';
-  background-color: #C6C7C4;
+  background-color: #D3D3D3;
   color: black;
   font-size: 2vw;
   text-align: center;
@@ -62,7 +62,7 @@ min-height: 150px;
 .About {
   /* Box properties */
   padding: 0em 5vw 3vw 5vw /* top right bottom left */ ;
-  background-color: #C6C7C4;
+  background-color: #D3D3D3;
 
   /* Text properties */
   color: black;
